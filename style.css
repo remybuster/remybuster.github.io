@@ -20,7 +20,9 @@
 }
 .logo{
     width: 120px;
+    height: 120px;
     cursor: pointer;
+    border-radius: 100px;
 }
 .navbar ul li{
     list-style: none;
@@ -91,4 +93,11 @@ button:hover span{
 }
 button:hover span{
     border: none;
+}
+.video{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-25%);
+    text-align: center;
 }
