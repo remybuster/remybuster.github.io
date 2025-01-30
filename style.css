@@ -44,7 +44,7 @@
     position: absolute;
     left: 0;
     bottom: -10px;
-    transition: 0.5s;
+    transition: 0.75s;
 }
 .navbar ul li:hover::after{
     width: 100%;
@@ -80,14 +80,14 @@ button{
     overflow: hidden;
 }
 span{
-    background: #eee;
+    background: #00000080;
     height: 100%;
     width: 0;
     position: absolute;
     left: 0;
     bottom: 0;
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.75s;
 }
 button:hover span{
     width: 100%;
