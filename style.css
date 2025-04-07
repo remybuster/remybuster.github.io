@@ -7,7 +7,14 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(websitebanner2.png);
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(websitebanner2.png);
+    background-size: cover;
+    background-position: center;
+}
+.banner2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)), url(websitebanner3.png);
     background-size: cover;
     background-position: center;
 }
@@ -22,7 +29,6 @@
 .logo{
     width: 120px;
     height: 120px;
-    cursor: url("l.png"), auto;
     border-radius: 100px;
 }
 .navbar ul li{
@@ -75,7 +81,6 @@ button{
     border: 2px solid #fff;
     background: transparent;
     color: #fff;
-    cursor: url("l.png"), auto;
     position: relative;
     overflow: hidden;
 }
